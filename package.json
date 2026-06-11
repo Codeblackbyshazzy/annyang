@@ -65,7 +65,8 @@
   "packageManager": "pnpm@10.30.3",
   "pnpm": {
     "overrides": {
-      "flatted": ">=3.4.0"
+      "flatted": ">=3.4.0",
+      "shell-quote": ">=1.8.4"
     }
   }
 }
