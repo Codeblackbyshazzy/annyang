@@ -60,13 +60,15 @@
     "typedoc-plugin-markdown": "^4.11.0",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.58.0",
-    "vitest": "^4.1.2"
+    "vitest": "^4.1.10"
   },
   "packageManager": "pnpm@10.30.3",
   "pnpm": {
     "overrides": {
+      "esbuild": ">=0.28.1",
       "flatted": ">=3.4.0",
-      "shell-quote": ">=1.8.4"
+      "shell-quote": ">=1.8.4",
+      "vite": "^7.3.5"
     }
   }
 }
